@@ -7,6 +7,6 @@ defmodule PhoenixTodo.Router do
       schema: PhoenixTodo.Schema
   end
 
-  forward "/", Absinthe.Plug,
+  forward "/graphql", Absinthe.Plug,
     schema: PhoenixTodo.Schema
 end
