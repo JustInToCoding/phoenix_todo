@@ -36,5 +36,7 @@ defmodule PhoenixTodo.Endpoint do
     key: "_phoenix_todo_key",
     signing_salt: "3Hdc2+ZB"
 
+  plug CORSPlug
+
   plug PhoenixTodo.Router
 end
