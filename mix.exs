@@ -19,7 +19,7 @@ defmodule PhoenixTodo.Mixfile do
   def application do
     [mod: {PhoenixTodo, []},
      applications: [:phoenix, :phoenix_pubsub, :cowboy, :logger, :gettext,
-                    :phoenix_ecto, :postgrex, :absinthe_plug, :timex]]
+                    :phoenix_ecto, :postgrex, :absinthe, :absinthe_plug, :timex]]
   end
 
   # Specifies which paths to compile per environment.
