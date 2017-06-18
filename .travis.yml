@@ -17,3 +17,5 @@ deploy:
   app: thawing-headland-78405
   on:
     repo: JustInToCoding/phoenix_todo
+after_deploy:
+  - heroku run "mix ecto.migrate" -a thawing-headland-78405
